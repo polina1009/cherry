@@ -1,0 +1,103 @@
+@import "fonts.css";
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-letter:first-letter {
+    color: #ae4b5d;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.top-line {
+    background-image: url("../img/top-line.jpg");
+    /*background-image: url("../img/top-line-2.jpg"); не нашла повторяющийся фрагмент в градиенте 😕*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 1300px;
+    width: 100%;
+    height: 72px;
+}
+
+
+
+
+
+
+
+.logo-text {
+    font-family: Arial-Bold;
+
+}
+
+
+
+
+
+
+
+
+.section-title {
+    color: #a5adb8;
+    font-family: Arial-Bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Arial-Regular;
+    font-size: 14px;
+    color: #5c646e;
+    /*margin-bottom: 20px;*/
+}
+
+p a {
+color: #ae4b5d;
+}
+
+.card, .list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h3 {
+    font-family: Arial-Bold;
+    font-size: 18px;
+    color: #282d33;
+    margin-bottom: 16px;
+}
+
+img {
+    box-shadow: 0 5px 5px #c4c4c4;
+}
+
+h5 {
+    font-family: Arial-Regular;
+    font-size: 14px;
+    color: #5c646e;
+}
+
+span {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #dedede;
+    border-radius: 2px;
+}
+
+li {
+    font-family: Arial-Regular;
+    font-size: 14px;
+    color: #5c646e;
+}
+
+.list-inside {
+    list-style-position: inside;
+}
+
