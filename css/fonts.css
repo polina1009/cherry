@@ -17,3 +17,15 @@
     font-style: normal;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'search';
+    src: url('../fonts/search/font/search.eot?62676213');
+    src: url('../fonts/search/font/search.eot?62676213#iefix') format('embedded-opentype'),
+    url('../fonts/search/font/search.woff2?62676213') format('woff2'),
+    url('../fonts/search/font/search.woff?62676213') format('woff'),
+    url('../fonts/search/font/search.ttf?62676213') format('truetype'),
+    url('../fonts/search/font/fontello.svg?62676213#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
